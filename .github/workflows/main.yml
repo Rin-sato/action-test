@@ -6,7 +6,7 @@ on:
 jobs:
   checkout:
     runs-on: ubuntu-latest
-    containers: almalinux 
+    
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v3
